@@ -52,6 +52,6 @@ python gesture-control-mp-novelty.py
 ## Notes
 - Trained model file (`.h5`) was not included due to GitHub size limits
 - Download the trained `.h5` model file here:
-  https://drive.google.com/file/d/1fyz9HPvx79bt94aem5t_uzUx__Q3omjS/view?usp=sharing
+  https://drive.google.com/file/d/1lLd2FuHHhkSUj3-j92bHIk1FkGXQLHxI/view?usp=sharing
 - Place downloaded models inside the `CNN/` folder
 

@@ -1,12 +1,12 @@
 import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
-from utils import process_frame, IMG_SIZE
+from utils import process_frame
 
 # Config
 MODEL_PATH = "gesture_model_best.h5"
 CLASSES = ["down", "left", "right", "up"] 
-
+IMG_SIZE = 128
 
 model = load_model(MODEL_PATH)
 cap = cv2.VideoCapture(0)

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-# Configuration Constants
+# Configuring Constants
 IMG_SIZE = 128
 HSV_LOWER = np.array([0, 20, 70], dtype=np.uint8)
 HSV_UPPER = np.array([20, 255, 255], dtype=np.uint8)

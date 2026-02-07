@@ -3,6 +3,7 @@ from tensorflow.keras import layers, models, callbacks
 from utils import IMG_SIZE
 
 # Configuration
+IMG_SIZE = 128
 BATCH_SIZE = 32
 EPOCHS = 15
 DATA_DIR = 'dataset' 
@@ -34,7 +35,6 @@ def create_model():
     return model
 
 # Load Data
-print("Loading datasets...")
 train_ds = tf.keras.utils.image_dataset_from_directory(
     f'{DATA_DIR}/train',
     image_size=(IMG_SIZE, IMG_SIZE),

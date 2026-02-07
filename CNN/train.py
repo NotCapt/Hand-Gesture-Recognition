@@ -34,7 +34,7 @@ def create_model():
     ])
     return model
 
-# Load Data
+# Loading Data
 train_ds = tf.keras.utils.image_dataset_from_directory(
     f'{DATA_DIR}/train',
     image_size=(IMG_SIZE, IMG_SIZE),

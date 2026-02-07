@@ -35,7 +35,7 @@ while True:
     buffer.append(idx)
     if len(buffer) > BUFFER_SIZE: buffer.pop(0)
     
-    # Take the most frequent prediction in the buffer.
+    # Take the most frequent prediction in the buffer
     smooth_idx = max(set(buffer), key=buffer.count)
     label = CLASSES[smooth_idx].upper()
 

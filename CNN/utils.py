@@ -7,7 +7,7 @@ HSV_LOWER = np.array([0, 20, 70], dtype=np.uint8)
 HSV_UPPER = np.array([20, 255, 255], dtype=np.uint8)
 
 def get_roi_coords(h, w):
-    # Fetches the coordinates of ROI(region of interest)
+    # Fetches the coordinates of ROI(region of interest).
     y1, y2 = int(0.3 * h), int(0.7 * h)
     x1, x2 = int(0.3 * w), int(0.7 * w)
     return x1, y1, x2, y2

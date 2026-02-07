@@ -23,7 +23,7 @@ while True:
     
     frame = cv2.flip(frame, 1)
     
-    # Use the shared processing function
+    # Use the shared processing function.
     mask, (x1, y1, x2, y2) = process_frame(frame)
     
     # Visualization
